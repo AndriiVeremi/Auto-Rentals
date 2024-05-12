@@ -1,4 +1,8 @@
 @import-normalize;
+@import './styles/font-face.css';
+@import './styles/reset.css';
+@import './styles/variables.css';
+
 
 body {
   margin: 0;
@@ -14,52 +18,5 @@ code {
     monospace;
 }
 
-/* Font */
-
-@font-face {
-  font-family: 'Inter';
-  font-family: 400;
-  src: url('../fonts/Inter-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-family: 400;
-  src: url('../fonts/Manrope-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-weight: 500;
-  src: url('../fonts/Manrope-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Manrope';
-  font-family: 600;
-  src: url('../fonts/Manrope-SemiBold.ttf');
-}
 
 
-/* Reset Styles */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-.active {
-  color: #e44848;
-}
-
-button {
-  cursor: pointer;
-  font-family: inherit;
-}

@@ -1,0 +1,24 @@
+.headerWrapper {
+    display: flex;
+    padding: 30px 0px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 50px;
+}
+
+.logoWrapper {
+    margin-right: 180px;
+}
+
+.menuList {
+    display: flex;
+    gap: 30px;
+}
+
+.loginWrapper {
+    margin-left: auto;
+}
+
+.loginList {
+    display: flex;
+    gap: 30px;
+}

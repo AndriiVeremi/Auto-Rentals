@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import HeadersNav from 'components/HeadersNav/HeadersNav';
+import HeadersNav from 'components/HeaderNav/HeaderNav';
 
 const HeaderLayout = () => {
   return (

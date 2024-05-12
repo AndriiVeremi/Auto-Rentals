@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import css from './HeaderNav.module.css';
 
 const HeadersNav = () => {
   return (
-    <>
-      <div>
+    <div className={css.headerWrapper}>
+      <div className={css.logoWrapper}>
         <NavLink to="/">Auto Rentals</NavLink>
       </div>
       <div>
-        <ul>
+        <ul className={css.menuList}>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -18,21 +19,21 @@ const HeadersNav = () => {
             <NavLink to="/favorites">Favorites</NavLink>
           </li>
           <li>
-            <NavLink to="/">User</NavLink>
+            <NavLink to="/">Add cars</NavLink>
           </li>
         </ul>
       </div>
-      <div>
-        <ul>
+      <div className={css.loginWrapper}>
+        <ul className={css.loginList}>
           <li>
-            <NavLink to="/">LoginIn</NavLink>
+            <NavLink to="/">Login In</NavLink>
           </li>
           <li>
-            <NavLink to="/">SingIn</NavLink>
+            <NavLink to="/">Sing In</NavLink>
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

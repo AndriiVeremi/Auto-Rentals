@@ -1,0 +1,7 @@
+:root {
+    --color-white: #ffffff;
+    --color-accent: #3470FF;
+    --color-hover-accent: #0B44CD;;
+    
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
