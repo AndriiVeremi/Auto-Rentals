@@ -1,8 +1,10 @@
+@import-normalize;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Manrope', 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,54 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Font */
+
+@font-face {
+  font-family: 'Inter';
+  font-family: 400;
+  src: url('../fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-family: 400;
+  src: url('../fonts/Manrope-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 500;
+  src: url('../fonts/Manrope-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-family: 600;
+  src: url('../fonts/Manrope-SemiBold.ttf');
+}
+
+
+/* Reset Styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  color: #e44848;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
